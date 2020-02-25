@@ -1,5 +1,6 @@
 package uk.ac.ucl;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -28,6 +29,11 @@ public abstract class AbstractMySet<T extends Comparable<T>> implements MySet<T>
   public List<T> toList()
   {
     // TODO write the code to return a List of the set contents.
+    Iterator iterator = iterator();
+    ArrayList<T> arrayList = new ArrayList<>();
+    while(iterator.hasNext()){
+      arrayList.add((T) iterator.next());
+    }
     return new ArrayList<>();
   }
 
