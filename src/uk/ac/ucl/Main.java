@@ -61,6 +61,9 @@ public class Main
     print(set1.intersection(set2));
     System.out.print("Difference: ");
     print(set1.difference(set2));
+    System.out.print("Set1 Set2 Equal?");
+    System.out.println();
+    System.out.print(set1.equals(set2));
   }
 
   public void checkIntSets()
@@ -70,9 +73,9 @@ public class Main
     try
     {
       set1 = factory.getMySet();
-      set1.add(1);
       set1.add(2);
       set1.add(3);
+      set1.add(4);
       set2 = factory.getMySet();
       set2.add(2);
       set2.add(3);
@@ -92,9 +95,9 @@ public class Main
     try
     {
       set1 = factory.getMySet();
-      set1.add("One");
       set1.add("Two");
       set1.add("Three");
+      set1.add("Four");
       set2 = factory.getMySet();
       set2.add("Two");
       set2.add("Three");

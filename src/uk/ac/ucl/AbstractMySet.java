@@ -17,6 +17,27 @@ public abstract class AbstractMySet<T extends Comparable<T>> implements MySet<T>
   public boolean equals(MySet<T> aSet)
   {
     // TODO write a working method body.
+    List<T> arrayA = this.toList();
+    List<T> arrayB = aSet.toList();
+    if( arrayA.size()>0 && (arrayB.size()==arrayA.size()))
+    {
+      int bool = 1;
+      for (int a = 0; a<arrayA.size();a++){
+        for(int b = a;;){
+          if(a!=b){
+            bool=0;
+            break;
+          }
+          else{
+            break;
+          }
+        }
+      }
+      if(bool==1)
+      {
+        return true;
+      }
+    }
     return false;
   }
 
@@ -26,15 +47,15 @@ public abstract class AbstractMySet<T extends Comparable<T>> implements MySet<T>
     return toList().hashCode();
   }
 
-  public List<T> toList()
+  public ArrayList<T> toList()
   {
     // TODO write the code to return a List of the set contents.
-    Iterator iterator = iterator();
-    ArrayList<T> arrayList = new ArrayList<>();
-    while(iterator.hasNext()){
-      arrayList.add((T) iterator.next());
+    Iterator iter = this.iterator();
+    ArrayList<T> list = new ArrayList<T>();
+    while(iter.hasNext()){
+      list.add((T) iter.next());
     }
-    return new ArrayList<>();
+    return list;
   }
 
   public MySet<T> union(MySet<T> mySet) throws MySetException
