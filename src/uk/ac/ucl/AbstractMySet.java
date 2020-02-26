@@ -1,8 +1,6 @@
 package uk.ac.ucl;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
 
 /**
  * This class implements methods common to all concrete set implementations but does not
@@ -61,26 +59,62 @@ public abstract class AbstractMySet<T extends Comparable<T>> implements MySet<T>
   public MySet<T> union(MySet<T> mySet) throws MySetException
   {
     MySet<T> result = MySetFactory.getInstance().getMySet();
-
     //TODO write the statements needed to find the union
-
+    MySet<T> aSet = this.difference(mySet);
+    for(T a: this){
+      result.add(a);
+    }
+    for(T a : aSet){
+      result.add(a);
+    }
     return result;
   }
 
   public MySet<T> intersection(MySet<T> mySet) throws MySetException
   {
     MySet<T> result = MySetFactory.getInstance().getMySet();
-
     // TODO write the statements needed to find the intersection.
-
+    List<T> listA = this.toList();
+    List<T> listB = mySet.toList();
+    for(T a:listA){
+      for(T b:listB){
+        if(a==b){
+          result.add(a);
+        }
+      }
+    }
     return result;
   }
 
   public MySet<T> difference(MySet<T> mySet) throws MySetException
   {
     MySet<T> result = MySetFactory.getInstance().getMySet();
-
     // TODO write the statements needed to find the difference.
+    List<T> sameElements = this.intersection(mySet).toList();
+    for(T a : this){
+      int bool=1;
+      for(T b :sameElements){
+        if (a==b){
+          bool = 0;
+          break;
+        }
+      }
+      if(bool==1){
+        result.add(a);
+      }
+    }
+    for(T a : mySet){
+      int bool=1;
+      for(T b :sameElements){
+        if (a==b){
+          bool = 0;
+          break;
+        }
+      }
+      if(bool==1){
+        result.add(a);
+      }
+    }
     return result;
   }
 
