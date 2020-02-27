@@ -21,8 +21,9 @@ public class ArrayMySet<T extends Comparable<T>> extends AbstractMySet<T>
 
   public ArrayMySet(int maximumSize) throws MySetException
   {
-    checkSize(maximumSize);
+   // checkSize(maximumSize);
     initialiseToEmpty(maximumSize);
+    checkSize(maximumSize);
   }
 
   private void initialiseToEmpty(int maximumSize)
@@ -82,6 +83,9 @@ public class ArrayMySet<T extends Comparable<T>> extends AbstractMySet<T>
     private int index = 0;
     public boolean hasNext()
     {
+      if(contents.size()==0){
+        return false;
+      }
       return index < contents.size();
     }
 

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a52a82-8e80-4894-8a04-bf9d89cb654c" name="Default Changelist" comment="" />
+    <list default="true" id="d8a52a82-8e80-4894-8a04-bf9d89cb654c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk/ac/ucl/AbstractMySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/uk/ac/ucl/AbstractMySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk/ac/ucl/ArrayMySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/uk/ac/ucl/ArrayMySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk/ac/ucl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/uk/ac/ucl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk/ac/ucl/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/uk/ac/ucl/MySet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,29 +76,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582666722352" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582708187363">
+    <state width="1157" height="236" key="GridCell.Tab.0.bottom" timestamp="1582810213328">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.0.1200.760@0.0.1200.760" timestamp="1582708187363" />
+    <state width="1157" height="236" key="GridCell.Tab.0.bottom/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
     <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582676956807" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582708187362">
+    <state width="1157" height="236" key="GridCell.Tab.0.center" timestamp="1582810213328">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.center/0.0.1200.760@0.0.1200.760" timestamp="1582708187362" />
+    <state width="1157" height="236" key="GridCell.Tab.0.center/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
     <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582676956806" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582708187362">
+    <state width="1157" height="236" key="GridCell.Tab.0.left" timestamp="1582810213328">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.left/0.0.1200.760@0.0.1200.760" timestamp="1582708187362" />
+    <state width="1157" height="236" key="GridCell.Tab.0.left/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
     <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582676956806" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582708187362">
+    <state width="1157" height="236" key="GridCell.Tab.0.right" timestamp="1582810213328">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.right/0.0.1200.760@0.0.1200.760" timestamp="1582708187362" />
+    <state width="1157" height="236" key="GridCell.Tab.0.right/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
     <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582676956806" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582660509318">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1157" height="236" key="GridCell.Tab.1.bottom" timestamp="1582810213328">
+      <screen x="0" y="0" width="1200" height="760" />
     </state>
+    <state width="1157" height="236" key="GridCell.Tab.1.bottom/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
+    <state width="1157" height="236" key="GridCell.Tab.1.center" timestamp="1582810213328">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state width="1157" height="236" key="GridCell.Tab.1.center/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
+    <state width="1157" height="236" key="GridCell.Tab.1.left" timestamp="1582810213328">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state width="1157" height="236" key="GridCell.Tab.1.left/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
+    <state width="1157" height="236" key="GridCell.Tab.1.right" timestamp="1582810213328">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state width="1157" height="236" key="GridCell.Tab.1.right/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
+    <state x="351" y="218" key="com.intellij.ide.util.TipDialog" timestamp="1582804881861">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state x="351" y="218" key="com.intellij.ide.util.TipDialog/0.0.1200.760@0.0.1200.760" timestamp="1582804881861" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582660509318" />
     <state x="308" y="10" key="refactoring.ChangeSignatureDialog" timestamp="1582637420949">
       <screen x="0" y="0" width="1200" height="760" />
@@ -102,5 +125,39 @@
       <screen x="0" y="0" width="1200" height="760" />
     </state>
     <state x="263" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1200.760@0.0.1200.760" timestamp="1582633911013" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/uk/ac/ucl/Main.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/uk/ac/ucl/ArrayMySet.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/uk/ac/ucl/ArrayMySet.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/uk/ac/ucl/ArrayMySet.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/uk/ac/ucl/AbstractMySet.java</url>
+          <line>120</line>
+          <properties class="uk.ac.ucl.AbstractMySet" method="checkSize">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

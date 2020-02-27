@@ -57,6 +57,8 @@ public interface MySet<T extends Comparable<T>> extends Iterable<T>
    */
   void remove(T value);
 
+  void checkSize(int maximumSize) throws MySetException;
+
   /**
    * Generate the union of the set with another set. The union is a new set, leaving the
    * source sets unchanged.

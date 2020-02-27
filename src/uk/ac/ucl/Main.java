@@ -62,8 +62,9 @@ public class Main
     System.out.print("Difference: ");
     print(set1.difference(set2));
     System.out.print("Set1 Set2 Equal?");
-    System.out.println();
+    System.out.println(set1.equals(set2));
     System.out.print(set1.toList());
+    set1.checkSize(2);
 
   }
 
@@ -112,14 +113,14 @@ public class Main
       System.out.println("====> MySet Exception thrown...");
     }
   }
-
+//
 
   public void go()
   {
     factory.setClassName("ArrayMySet");
 
     checkIntSets();
-    checkStringSets();
+//    checkStringSets();
   }
 
   public static void main(String[] args)
