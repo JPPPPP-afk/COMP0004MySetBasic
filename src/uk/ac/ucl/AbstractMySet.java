@@ -118,10 +118,14 @@ public abstract class AbstractMySet<T extends Comparable<T>> implements MySet<T>
     return result;
   }
 
-  protected void checkSize(int maximumSize)
+  public void checkSize(int maximumSize)
     throws MySetException
   {
      // TODO throw an exception if the set exceeds its maximum size.
+    List<T> array = this.toList();
+    if(array.size() > maximumSize){
+      throw new MySetException("ExceedsMaximumSize");
+    }
   }
 
   // A helper method that might be useful.
@@ -132,5 +136,9 @@ public abstract class AbstractMySet<T extends Comparable<T>> implements MySet<T>
     {
       destination.add(value);
     }
+  }
+
+  public String toString(){
+    
   }
 }
