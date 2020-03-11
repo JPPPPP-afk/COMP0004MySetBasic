@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="d8a52a82-8e80-4894-8a04-bf9d89cb654c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/uk/ac/ucl/AbstractMySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/uk/ac/ucl/AbstractMySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk/ac/ucl/ArrayMySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/uk/ac/ucl/ArrayMySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk/ac/ucl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/uk/ac/ucl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uk/ac/ucl/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/uk/ac/ucl/MySet.java" afterDir="false" />
+<<<<<<< HEAD
+>>>>>>> 5b33fb91e6278c89d32046ee36f163335102bf9e
+=======
+>>>>>>> 5b33fb91e6278c89d32046ee36f163335102bf9e
+>>>>>>> 681be0237917d6e89d706bf83ff4d834063db823
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +85,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582666722352" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1582844957024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582844957024" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1582676956807">
+      <screen x="0" y="0" width="1536" height="824" />
+=======
     <state width="1157" height="236" key="GridCell.Tab.0.bottom" timestamp="1582810213328">
       <screen x="0" y="0" width="1200" height="760" />
+>>>>>>> 5b33fb91e6278c89d32046ee36f163335102bf9e
+=======
+    <state width="1157" height="236" key="GridCell.Tab.0.bottom" timestamp="1582810213328">
+      <screen x="0" y="0" width="1200" height="760" />
+>>>>>>> 5b33fb91e6278c89d32046ee36f163335102bf9e
     </state>
     <state width="1157" height="236" key="GridCell.Tab.0.bottom/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
     <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582676956807" />
@@ -92,9 +119,21 @@
     </state>
     <state width="1157" height="236" key="GridCell.Tab.0.right/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
     <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582676956806" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582849570480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582849570480" />
+=======
     <state width="1157" height="236" key="GridCell.Tab.1.bottom" timestamp="1582810213328">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
+=======
+    <state width="1157" height="236" key="GridCell.Tab.1.bottom" timestamp="1582810213328">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+>>>>>>> 5b33fb91e6278c89d32046ee36f163335102bf9e
     <state width="1157" height="236" key="GridCell.Tab.1.bottom/0.0.1200.760@0.0.1200.760" timestamp="1582810213328" />
     <state width="1157" height="236" key="GridCell.Tab.1.center" timestamp="1582810213328">
       <screen x="0" y="0" width="1200" height="760" />
@@ -113,10 +152,14 @@
     </state>
     <state x="351" y="218" key="com.intellij.ide.util.TipDialog/0.0.1200.760@0.0.1200.760" timestamp="1583839154978" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582660509318" />
+<<<<<<< HEAD
     <state x="51" y="2" key="new project wizard" timestamp="1583839182623">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
     <state x="51" y="2" key="new project wizard/0.0.1200.760@0.0.1200.760" timestamp="1583839182623" />
+=======
+>>>>>>> 5b33fb91e6278c89d32046ee36f163335102bf9e
+>>>>>>> 681be0237917d6e89d706bf83ff4d834063db823
     <state x="308" y="10" key="refactoring.ChangeSignatureDialog" timestamp="1582637420949">
       <screen x="0" y="0" width="1200" height="760" />
     </state>
